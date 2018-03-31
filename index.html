@@ -1,0 +1,32 @@
+<html>
+
+<head>
+	<title>Rotating Fan Animation</title>
+	<link rel="stylesheet" type="text/css" href="css//styles.css">
+</head>
+
+<body>
+  <canvas class="color" id="myCanvas" width="500" height="500" style=""></canvas>
+
+  <br>
+  <br>
+  <input id="start" type="button" class="button" value="Start" onclick="window.setInterval('fan()',20)">
+  <span>Speed:</span>
+  <select type="range" name="range" id="rang">
+      <option value="0">0</option>
+      <option value="20">1</option>
+      <option value="30">2</option>
+      <option value="40">3</option>
+      <option value="50">4</option>
+  </select>
+  <input class="checkbox" type="checkbox" value="Clockwise" id="chkdir">
+  &nbsp;&nbsp;Anti-clockwise
+  <br>
+  <br>
+  <br>
+
+  <script src="./scripts/script.js"></script>
+  <br>
+
+</body>
+</html>

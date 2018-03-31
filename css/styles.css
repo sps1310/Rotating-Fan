@@ -1,0 +1,81 @@
+body {
+	font-size: 15px;
+	color: #343d44;
+	font-family: "segoe-ui", "open-sans", tahoma, arial;
+	padding: 1;
+	margin: 2;
+	}
+
+span {
+	float:left;
+}
+
+select {
+	float:left;
+	margin-left:10px;
+}
+
+.color {
+		background-color: yellow; 
+	}
+
+.button {
+	float:left;
+	margin-right:20px;
+}
+
+.checkbox {
+	float:left; 
+	margin-left:10px;
+}
+
+#rectangle {
+	width: 10px;
+	height: 200px;
+	margin-left: 241px;
+   	margin-top: -252px;
+	border: 3px solid black;
+	background-color: black;
+	position: absolute;
+}
+
+#rectangle1 {
+	width: 150px;
+	height: 20px;
+	margin-left: 170px;
+   	margin-top: -49px;
+	border: 3px solid gray;
+	background-color: gray;
+	position: absolute;
+}
+
+#circle {
+  height: 240px;
+  width: 240px;
+  margin-left: 125px;
+  margin-top: -497px;
+  border: 5px solid gray;
+  border-radius: 240px;
+  position: absolute;
+}
+
+#circle1 {
+  height: 80px;
+  width: 80px;
+  margin-left: 209px;
+  margin-top: -414px;
+  background-color: gray;
+  border: 0.1px solid gray;
+  border-radius: 80px;
+  position: absolute;
+}
+
+#circle2 {
+  height: 160px;
+  width: 160px;
+  margin-left: 168px;
+  margin-top: -455px;
+  border: 2px solid gray;
+  border-radius: 160px;
+  position: absolute;
+}
